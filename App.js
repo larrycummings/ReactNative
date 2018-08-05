@@ -10,7 +10,7 @@ export default createStackNavigator({
     navigationOptions: () => ({
       title: "Larry's Event List"
     })
-  },
+  }, 
   form: {
     screen: EventForm,
     navigationOptions: () => ({
