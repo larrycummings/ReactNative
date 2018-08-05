@@ -6,7 +6,7 @@ export function formatDate(dateString)
 
     if (!parsed.isValid()) {
         return dateString;
-    }
+    } 
 
     return parsed.format('D MMM YYYY');
 }
